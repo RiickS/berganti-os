@@ -1,0 +1,177 @@
+/* ||||| HEADER SECTION |||||  */
+
+.header-logo {
+    max-width: 600px;
+}
+
+/* ||||| MAIN SECTION |||||  */
+
+.whatsapp-btn-row {
+    background-color: #dcdcdc;
+    padding: 10px;
+}
+
+.whatsapp-btn {
+    width: 65%;
+}
+
+/* ||||| FORM SECTION ||||| */
+
+.form-title {
+    text-align: center;
+    color: #515151;
+    font-family: 'Gotham-Bold';
+    font-size: calc(.8em + .6vw);
+}
+
+.form-group {
+    margin-bottom: .5rem !important;
+}
+
+.form-group label {
+    text-transform: uppercase;
+    font-family: 'Gotham-Bold';
+    font-size: calc(.6em + .4vw);
+}
+
+.form-control {
+    border: 1px solid #d80e0c;
+    border-radius: 0;
+}
+
+textarea.form-control {
+    min-height: 150px;
+}
+
+.button-link {
+    background: #d80e0c;
+    border: 1px solid #d80e0c;
+    width: 30%;
+    color: white;
+    font-family: 'Gotham-Bold';
+}
+
+/* ||||| INFO SECTION ||||| */
+
+.info-content-row {
+    background-color: #dcdcdc;
+    padding-bottom: 6rem;
+}
+
+.info-content-col h3 {
+    font-family: 'Gotham-Bold';
+    color: #515151;
+    text-transform: uppercase;
+    font-size: calc(.7em + .5vw);
+    letter-spacing: 1px;
+    position: relative;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.horario-icon, .ubicacion-icon, .mail-icon {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.horario-icon img, .ubicacion-icon img, .mail-icon img {
+    max-width: 90px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.horario-info, .ubicacion-info, .mail-info {
+    font-family: 'Gotham-Medium';
+    font-size: calc(.9em + .7vw);
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.desktop-info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gotham-Medium';
+    font-size: calc(1.1em + .9vw);
+    letter-spacing: 1px;
+}
+
+.desktop-ubicacion-icon-container, .desktop-horario-icon-container, .desktop-main-icon-container {
+    width: 110px;
+    text-align: left;
+}
+
+.desktop-info-cards img {
+    max-width: 100px;
+}
+
+.phone-btn-row {
+    padding: 10px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.phone-btn {
+    width: 65%;
+}
+
+/* ||||| FOOTER SECTION ||||| */
+
+.footer-row {
+    background-color: #dcdcdc;
+}
+
+.footer-logo {
+    max-width: 600px;
+}
+
+/* ||||| MEDIA QUERY'S ||||| */
+
+@media (min-width: 768px) {
+    .header-logo {
+        width: 45% !important;
+    }
+    .main-section {
+        background-color: #dcdcdc;
+        padding: 2rem;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .content-section {
+        background-color: #dcdcdc;
+        padding: 2rem;
+    }
+    .phone-btn {
+        width: 35%;
+    }
+    .whatsapp-btn {
+        width: 35%;
+    }
+    .button-link {
+        width: 20%;
+    }
+    .form-row-content {
+        max-width: 80%;
+        margin: auto;
+    }
+    .desktop-info-container {
+        padding: 2rem;
+    }
+    .footer-logo {
+        width: 45% !important;
+    }
+    #feet-icon {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .phone-btn-row {
+        padding: 10px;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+}
